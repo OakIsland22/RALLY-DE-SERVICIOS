@@ -1,0 +1,62 @@
+/* Cambiar el color de fondo de toda la página */
+body {
+  background-color: #363636; /* Fondo oscuro */
+  color: #ffd000; /* Texto amarillo */
+}
+
+/* 🔥 Borde grueso para el texto */
+.text-border {
+  text-shadow: 
+      -4px -4px 0 black, 4px -4px 0 black, 
+      -4px 4px 0 black, 4px 4px 0 black, 
+      -4px 0px 0 black, 4px 0px 0 black, 
+      0px -4px 0 black, 0px 4px 0 black;
+  font-weight: bold; /* Hace el texto más grueso */
+}
+
+/* Aplica a todos los textos de la página */
+h1, h2, h3, h4, h5, h6,  a, span {
+  font-weight: bold;
+  text-shadow: 
+      -4px -4px 0 black, 4px -4px 0 black, 
+      -4px 4px 0 black, 4px 4px 0 black, 
+      -4px 0px 0 black, 4px 0px 0 black, 
+      0px -4px 0 black, 0px 4px 0 black;
+}
+
+
+/* Opcional: Cambiar el color de los contenedores */
+.container {
+  background-color: #c2a48c; /* Gris oscuro */
+  padding: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Cambiar el color de la barra de navegación */
+.navbar {
+  background-color: #363636 !important;
+}
+
+/* Opcional: Cambiar el color de los enlaces */
+a {
+  color: #007bff; /* Azul */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #00aaff; /* Azul más claro al pasar el mouse */
+}
+
+/* Opcional: Estilizar los botones */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
